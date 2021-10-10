@@ -1,0 +1,7 @@
+{
+  "name": "SocialGyns",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

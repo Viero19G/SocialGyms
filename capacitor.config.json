@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "SocialGyns",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
