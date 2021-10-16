@@ -1,0 +1,55 @@
+<ion-content fullscreen="true" slot="fixed">
+  <ion-toolbar >
+    <ion-buttons slot="start">
+      <ion-button>
+        Sair
+        <ion-icon slot="start" name="exit-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    
+    <ion-buttons slot="secondary">
+      <ion-button>
+        Editar
+        <ion-icon slot="end" name="cog-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+    <div class="card">
+        <div class="header">
+            <div class="avatar">
+                <img src="../../assets/img/user.svg" alt="">
+            </div>
+        </div>
+
+        <div class="card-body">
+
+            <div class="user-meta ion-text-center">
+                <h3 class="usernsme">Nome do usuário logado</h3>
+                <h5 class="nickname">@user logado</h5>
+            </div>
+
+            <ion-button fill="outline" expand="block">
+                Procurar Amigos
+                <ion-icon slot="start" name="search-outline"></ion-icon>
+            </ion-button>
+
+            <ion-toolbar>
+             <ion-buttons slot="secondary">
+                   <ion-button class="bt-sociais">
+                     <ion-icon name="logo-whatsapp"></ion-icon>
+                 </ion-button>
+                
+                   <ion-button class="bt-sociais">
+                     <ion-icon name="logo-facebook"></ion-icon>
+                 </ion-button>
+
+                   <ion-button class="bt-sociais">
+                     <ion-icon name="logo-instagram"></ion-icon>
+                 </ion-button>
+              </ion-buttons>
+            </ion-toolbar>
+            
+        </div>
+    </div>
+</ion-content>
