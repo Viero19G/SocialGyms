@@ -1,5 +1,5 @@
 ion-content{
-    --background: url(../../assets/img/shapes.svg) no-repeat center center fixed, #fff;
+    --background: url(../../assets/img/fundo.jfif) no-repeat center center fixed, #fff;
     position: relative;
     height: 100%;
     width: 100%;
@@ -8,7 +8,9 @@ ion-content{
 ion-toolbar {
     --background: transparent;
 }
-
+ion-card{
+    background-color: #3e1573b6;
+}
 .card{
     margin: 0 auto;
     border-radius: 10px;
