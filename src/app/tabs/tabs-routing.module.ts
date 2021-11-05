@@ -24,15 +24,19 @@ const routes: Routes = [
         loadChildren: () => import('../tarefas/tarefas.module').then(m => m.TarefasPageModule)
       },
       {
+        path: 'home',
+        loadChildren: () => import('../home/home-routing.module').then( m => m.HomePageRoutingModule)
+      },
+      {
         path: '',
-        redirectTo: '/tabs/tabTreino',
+        redirectTo: '/home',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tabTreino',
+    redirectTo: '/home',
     pathMatch: 'full'
   }
 ];

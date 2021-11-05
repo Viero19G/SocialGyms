@@ -5,6 +5,7 @@
     <ion-tab-button tab="tabPerfil">
       <ion-icon name="person-circle-outline"></ion-icon>
       <ion-label>Perfil</ion-label>
+      <ion-badge *ngIf="PerfilNotifications > 0" color="danger">{{PerfilNotifications}}</ion-badge>
     </ion-tab-button>
 
     <ion-tab-button tab="tabTreino">

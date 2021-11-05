@@ -6,7 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['tabs.page.scss']
 })
 export class TabsPage {
+  PerfilNotifications: Number;
 
-  constructor() {}
+  constructor() {
+   
+    this.PerfilNotifications= 3;
+  }
 
 }

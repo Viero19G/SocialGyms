@@ -1,0 +1,48 @@
+<!-- <ion-card> -->
+  <!-- <ion-item> -->
+    <!-- <ion-label class="ion-text-wrap"> -->
+      <!-- <ion-text color="dark"><h3>{{Name}}</h3></ion-text> -->
+    <!-- </ion-label> -->
+  <!-- </ion-item> -->
+
+
+      <!-- <ion-card-content class="contadores"> -->
+          <!-- <ion-icon size="large" color="danger" name="remove-circle" (click)="decrement()" class="btn_menos"></ion-icon> -->
+          <!-- <ion-label class="ion-text-wrap"> -->
+            <!-- <ion-text color="dark"><h2>{{Score}}</h2></ion-text> -->
+          <!-- </ion-label> -->
+          <!-- <ion-icon size="large" color="success" name="add-circle" (click)="increment()" class="btn_mais"></ion-icon> -->
+      <!-- </ion-card-content> -->
+    <!-- </ion-card> -->
+    <ion-card color="primary">
+      <ion-item color="dark">
+        <ion-icon slot="start" size="large" name="bookmark" color="light"></ion-icon>
+        <ion-avatar slot="start">
+            <img src="assets/img/user.svg">
+        </ion-avatar>
+        <ion-label class="ion-text-wrap">
+            <ion-text color="dark"><h3>Gabriel Viero</h3> </ion-text>
+            <p>Meu primeiro treino!</p>
+        </ion-label>
+  
+        <ion-button color="tertiary" fill="clear">
+          <ion-icon size="large" name="eye-outline" color="tertiary"></ion-icon>
+        </ion-button>
+      </ion-item>
+  
+      <ion-card-content>
+        Foi difícil, mas passo bem. Vejam ai o resultado!!!
+      </ion-card-content>
+  
+      <ion-card-content style="background-color: gainsboro;">
+         <ion-button color="tertiary" size="small" fill="outline" slot="end">Pump
+          <ion-icon size="small" name="thumbs-up-sharp" color="tertiary"></ion-icon>
+         </ion-button>
+         <ion-button color="danger" size="small" fill="outline">Weak
+          <ion-icon color="danger" name="thumbs-down-sharp"></ion-icon>
+         </ion-button>
+         <ion-button color="dark" size="small" fill="outline" slot="end">Save 
+          <ion-icon color="dark" name="archive-sharp"></ion-icon>
+         </ion-button>
+      </ion-card-content>
+    </ion-card>
