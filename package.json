@@ -1,5 +1,5 @@
 {
-  "name": "SocialGyns",
+  "name": "SocialGyms",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -25,12 +25,15 @@
     "@capacitor/keyboard": "1.1.0",
     "@capacitor/status-bar": "1.0.3",
     "@ionic/angular": "^5.5.2",
+    "angularfire2": "^5.4.2",
+    "firebase": "^7.24.0",
+    "promise-polyfill": "^8.2.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~12.1.1",
+    "@angular-devkit/build-angular": "^13.1.1",
     "@angular-eslint/builder": "~12.0.0",
     "@angular-eslint/eslint-plugin": "~12.0.0",
     "@angular-eslint/eslint-plugin-template": "~12.0.0",
@@ -40,7 +43,7 @@
     "@angular/compiler-cli": "~12.1.1",
     "@angular/language-service": "~12.0.1",
     "@capacitor/cli": "3.2.4",
-    "@ionic/angular-toolkit": "^4.0.0",
+    "@ionic/angular-toolkit": "^5.0.3",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
