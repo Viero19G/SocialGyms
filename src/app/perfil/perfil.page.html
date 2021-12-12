@@ -93,10 +93,16 @@
                </ion-button>
             </ion-card-content>
           </ion-card>
+          <ion-item color="light">
+              <ion-label posiotion="floating">Numero de Jogadores</ion-label>
+              <ion-input type='number' (ionInput)="updateTotalPlayers($event.target.value)" value="{{QtdJogadores}}"></ion-input>
+          </ion-item>
+          <app-contador  *ngFor= "let p of players | async" Score={{p.Score}} Name={{p.Name}}></app-contador>
 
-          <app-contador Name="Gabriel" Score=0 id=0></app-contador>
-          <app-contador Name="Joao" Score=0 id=1></app-contador>
-          <app-contador Name="Lucas" Score=0 id=2></app-contador>
+       
         </div>
         <div >
+        <div ></div>
+
+        
        

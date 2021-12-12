@@ -17,6 +17,7 @@ export class ContadorComponent implements OnInit {
     }
 
     decrement (){
+      this.Score > 0;
       this.Score--;
     }
 
